@@ -1,0 +1,3 @@
+﻿Ajout du cronjob en root avec la commande : sudo crontab -u root -e
+Et on edit avec nano et on ajoute cette ligne pour l'automatisation qu’on veut:
+30 * * * *  cd /home/votreuser/shell-exe/Job8/ && sudo ./get_logs.sh
